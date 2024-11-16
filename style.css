@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgba(16, 18, 32, 1);
+}
+
+.varane {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: left;
+    color: white;
+}
+
+ul li a:hover {
+    background-color: black;
+}
+
+.div__left {
+    display: flex;
+    gap: 29px;
+    align-items: center;
+}
+
+
+.criminal {
+    border-radius: 15px;
+    padding: 9px 40px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+
+.criminal:focus {
+    border-radius: 15px;
+    padding: 9px 40px;
+    background-color: rgba(191, 175, 242, 1);
+    color: black;
+    cursor: pointer;
+}
+
+
+.criminal2 {
+    border-radius: 15px;
+    padding: 9px 66px;
+    background-color: rgba(191, 175, 242, 1);
+    color: black;
+    cursor: pointer;
+}
+
+
+.criminal2:hover {
+    transition: 4s;
+    border-radius: 15px;
+    padding: 9px 66px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.criminal2 {
+    border-radius: 15px;
+    padding: 9px 66px;
+    background-color: rgba(191, 175, 242, 1);
+    color: black;
+    cursor: pointer;
+}
+
+
+.criminal2:active {
+    border-radius: 15px;
+    padding: 9px 66px;
+    background-color: rgba(191, 175, 242, 1);
+    color: white;
+    cursor: pointer;
+}
+
+
+div ul li a p:hover {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: pink;
+    color: white;
+}
+
+
+
+div ul li a p {
+    padding: 10px;
+}
+
+.ramos {
+    padding: 88px 16px 0px 16px;
+    font-family: "Outfit", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.real {
+    width: 325px;
+    background-color: rgba(35, 32, 40, 1);
+    border-radius: 32px;
+    position: relative;
+}
+
+.marcelo {
+    padding: 0px 16px;
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: center;
+    color: white;
+}
+
+.nacho {
+    top: -250px;
+    left: 40px;
+}
+
+.real:hover {
+    margin-top: 418px;
+}
+
+.real {
+    margin-top: 468px;
+}
+
+.barca {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+}
+
+footer div li a {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+footer div li a:hover {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
